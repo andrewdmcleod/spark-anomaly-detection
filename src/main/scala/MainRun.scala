@@ -8,8 +8,8 @@ import org.apache.spark.rdd.RDD
 
 object MainRun {
 
-  val rawFilePath = "./src/test/resources/training.csv"
-  val cvFilePath = "./src/test/resources/cross_val.csv"
+  val rawFilePath = "hdfs:///spark-test/resources/training.csv"
+  val cvFilePath = "hdfs:///spark-test/resources/cross_val.csv"
 
   def main(args: Array[String]) {
 
